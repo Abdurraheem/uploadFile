@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css">
+	<script type="text/javascript" href="js/jquery-1.11.3.min"></script>
+</head>
+<body>
+
+<div class="container">
+<div class="col-md-8 col-md-offset-2">
+    <h3>File Input Example</h3>
+<form method="POST" action="#" enctype="multipart/form-data">
+	<!-- COMPONENT START -->
+	<div class="form-group">
+		<div class="input-group input-file" name="Fichier1">
+			<span class="input-group-btn">
+        		<button class="btn btn-default btn-choose" type="button">Choose</button>
+    		</span>
+    		<input type="text" class="form-control" placeholder='Choose a file...' />
+    		<span class="input-group-btn">
+       			 <button class="btn btn-warning btn-reset" type="button">Reset</button>
+    		</span>
+		</div>
+	</div>
+	<!-- COMPONENT END -->
+	<div class="form-group">
+		<button type="submit" class="btn btn-primary pull-right" disabled>Submit</button>
+		<button type="reset" class="btn btn-danger">Reset</button>
+	</div>
+    <p>Submit is disabled because it's not handle on this site
+    <p>Input Reset or Input Choose can be omitted
+    <p>Input Reset or Input Choose can be placed on left or right
+</form>
+        
+        
+        <h3>Another example</h3>
+<form method="POST" action="#" enctype="multipart/form-data">
+	<!-- COMPONENT START -->
+	<div class="form-group">
+		<div class="input-group input-file" name="Fichier1">
+    		<input type="text" class="form-control" placeholder='Choose a file...' />			
+            <span class="input-group-btn">
+        		<button class="btn btn-default btn-choose" type="button">Choose</button>
+    		</span>
+
+
+		</div>
+	</div>
+	<!-- COMPONENT END -->
+	<div class="form-group">
+		<button type="submit" class="btn btn-primary pull-right" disabled>Submit</button>
+		<button type="reset" class="btn btn-danger">Reset</button>
+	</div>
+</form>
+</div>
+</div>
+</body>
+</html>
